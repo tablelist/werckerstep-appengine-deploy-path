@@ -21,3 +21,4 @@ You may want to deploy only your *src* or *build* directory instead of all your 
                 srcpath: ./src
 
 I recommend to use private deployment variables for email and password.
+*Note: The app.yaml has to be inside the `srcpath` directory.*
