@@ -1,10 +1,10 @@
 # AppEngine Deploy Path
 
 A Wercker step that deploys a specified directory to the Google AppEngine.
+
 You may want to deploy only your *src* or *build* directory instead of all your files including tests and other files not needed in a release.
 
 ## Options
-
 ### required
 
 * `email` - The email address of the Google account to use for deployment.
@@ -21,4 +21,5 @@ You may want to deploy only your *src* or *build* directory instead of all your 
                 srcpath: ./src
 
 I recommend to use private deployment variables for email and password.
-*Note: The app.yaml has to be inside the `srcpath` directory.*
+
+**Note**: The app.yaml has to be inside the `srcpath` directory.
