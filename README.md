@@ -1,8 +1,10 @@
 # AppEngine Deploy Path
 
-A Wercker step that deploys a specified directory to the Google AppEngine.
+A [Wercker](http://wercker.com/) step that deploys a specified directory to the [Google AppEngine](https://appengine.google.com).
 
 You may want to deploy only your *src* or *build* directory instead of all your files including tests and other files not needed in a release.
+
+[![wercker status](https://app.wercker.com/status/95c0eca20545112757ba1b5c7925abfd/s/ "wercker status")](https://app.wercker.com/project/bykey/95c0eca20545112757ba1b5c7925abfd)
 
 ## Options
 ### required
