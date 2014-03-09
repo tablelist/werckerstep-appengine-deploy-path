@@ -1,5 +1,5 @@
 name: appengine-deploy-path
-version: 1.0.0
+version: 1.0.1
 description: Deploy a directory to Google's AppEngine
 properties:
   email:
