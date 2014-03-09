@@ -1,0 +1,13 @@
+name: appengine-deploy-path
+version: 0.1
+description: Deploy a directory to Google's AppEngine
+properties:
+  email:
+    type: string
+    required: true
+  password:
+    type: string
+    required: true
+  srcpath:
+    type: string
+    required: true
