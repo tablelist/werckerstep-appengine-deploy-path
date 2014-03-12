@@ -11,7 +11,7 @@ You may want to deploy only your *src* or *build* directory instead of all your 
 
 * `email` - The email address of the Google account to use for deployment.
 * `password` - The password of the Google account to use for deployment.
-* `srcpath` - The path to the directory you want di deploy (for example `./src`).
+* `srcpath` - The path to the directory you want to deploy (for example `./src`).
 
 ## Example
 
