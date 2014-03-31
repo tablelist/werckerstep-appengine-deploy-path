@@ -1,4 +1,4 @@
-name: appengine-deploy-path
+name: appengine-deploy-path-update
 version: 1.0.1
 description: Deploy a directory to Google's AppEngine
 properties:
