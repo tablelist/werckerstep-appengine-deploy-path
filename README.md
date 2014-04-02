@@ -19,7 +19,7 @@ You may want to deploy only your *src* or *build* directory instead of all your 
 
     deploy:
         steps:
-            - etre/appengine-deploy-path-update:
+            - etre0/appengine-deploy-path-update:
                 email: $APP_ENGINE_USER
                 password: $APP_ENGINE_PASS
                 srcpath: ./src
