@@ -1,5 +1,5 @@
 name: appengine-deploy-path-update
-version: 1.0.6
+version: 1.0.7
 description: Deploy a directory to Google's AppEngine using updated SDK
 properties:
   email:
