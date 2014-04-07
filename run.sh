@@ -5,7 +5,7 @@ sudo apt-get install unzip
 cd $WERCKER_ROOT
 debug 'Downloading AppEngine SDK...'
 
-curl -O https://commondatastorage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.1.zip ; unzip -x google_appengine_1.9.1.zip
+curl -O https://commondatastorage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.2.zip ; unzip -x google_appengine_1.9.2.zip
 export PATH="$PATH:$(pwd)/google_appengine"
 
 echo "$WERCKER_APPENGINE_DEPLOY_PATH_UPDATE_PASSWORD" > "$WERCKER_STEP_TEMP/password"
